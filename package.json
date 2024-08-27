@@ -1,0 +1,23 @@
+{
+  "name": "hairday",
+  "version": "1.0.0",
+  "description": "scheduling web",
+  "main": "index.js",
+  "author": "Luiz Henrique",
+  "license": "ISC",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333",
+    "dev": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
